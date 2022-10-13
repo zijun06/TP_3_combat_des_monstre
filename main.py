@@ -1,4 +1,6 @@
 """
+GR:406
+Zi-jun Zhou
 Le but de la partie est d’accumuler le plus possible de victoires.  Elles s’additionnent en vainquant des monstres.
  Un personnage circule dans un couloir (le monde), à chaque extrémité du couloir il y a une porte.
   Chacune de ces portes mène à une salle (le niveau).
@@ -35,11 +37,12 @@ def apparaitre_regle_du_jeux():
 
 def choix_du_joueur():
     global choix
-    choix = int(input("1- Combattre cet adversair\n"
+    choix = int(input("Que voulez-vous faire ?\n"
+                      "1- Combattre cet adversair\n"
                       "2- Contourner cet adversaire et aller ouvrir une autre\n"
                       "3- Afficher les règles du jeu\n"
-                      "4- Quitter la partie\n"
-                      ""))
+                      "4- Quitter la partie\n"))
+
 
 
 play_game = True
