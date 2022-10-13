@@ -50,7 +50,7 @@ while play_game:
     numero_combat = 0
     nombre_victoires = 0
     nombre_defaites = 0
-    combat_statut = "aucune battaille efectuer encore pour le moment...."
+    combat_statut = "aucune battaille efectuer encore pour le moment..."
     nombre_victoires_consecutives = 0
     afficher_regle = False
     force_adversaire = 0
